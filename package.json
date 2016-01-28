@@ -1,30 +1,32 @@
 {
-  "name": "hubot-tucker",
-  "description": "Malcolm Tucker quote provider for Hubot",
-  "version": "1.3.0",
+  "name": "hubot-notable-deaths",
+  "description": "Hubot trawls Wikipedia to tell you recent \"notable\" deaths.",
+  "version": "1.0.0",
   "author": "Drew Robinson <drew.robinson@gmail.com>",
   "license": "MIT",
   "keywords": [
     "hubot",
     "hubot-scripts",
-    "malcolm tucker"
+    "deaths",
+    "famous people"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ocean/hubot-tucker.git"
+    "url": "git://github.com/ocean/hubot-notable-deaths.git"
   },
   "bugs": {
-    "url": "https://github.com/ocean/hubot-tucker/issues"
+    "url": "https://github.com/ocean/hubot-notable-deaths/issues"
   },
   "dependencies": {
     "coffee-script": "1.6.3",
     "cheerio": "^0.19.x"
   },
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*"
+    "chai": "^3.5.x",
+    "hubot-test-helper": "^1.4.x",
+    "mocha": "^2.4.x",
+    "sinon-chai": "^2.8.x",
+    "sinon": "^1.17.x"
   },
   "main": "index.coffee",
   "scripts": {
